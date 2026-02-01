@@ -160,6 +160,7 @@ eyeBtn.addEventListener('click',()=>{
   generateBtn.addEventListener('click',generatePassword);
   shuffleBtn.addEventListener('click',generatePassword);
   downloadBtn.addEventListener('click',downloadTxt);
+  copyBtn.addEventListener('click', copyToClipboard);
 
   //Initial
   lengthValue.textContent = lengthRange.value;
